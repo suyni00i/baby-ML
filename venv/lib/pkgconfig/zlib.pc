@@ -1,0 +1,13 @@
+prefix=/Users/suyni00i/baby-ML/venv
+exec_prefix=/Users/suyni00i/baby-ML/venv
+libdir=/Users/suyni00i/baby-ML/venv/lib
+sharedlibdir=/Users/suyni00i/baby-ML/venv/lib
+includedir=/Users/suyni00i/baby-ML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
